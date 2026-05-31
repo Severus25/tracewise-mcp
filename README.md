@@ -327,4 +327,4 @@ SDLC_MCP/
 
 ## 📄 License
 
-MIT
+MIT — see [LICENSE](LICENSE) for details.

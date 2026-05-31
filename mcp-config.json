@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "sdlc-traceability": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "cwd": "."
+    }
+  }
+}

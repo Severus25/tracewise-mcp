@@ -1,0 +1,37 @@
+{
+  "name": "sdlc-traceability-mcp",
+  "version": "1.0.0",
+  "description": "MCP orchestration layer connecting requirements, code, tests, and docs into a navigable AI-backed traceability graph",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node node_modules/typescript/bin/tsc",
+    "start": "node dist/index.js",
+    "dev": "node -r ts-node/register src/index.ts",
+    "demo": "node -r ts-node/register src/demo.ts",
+    "cli": "node -r ts-node/register src/cli.ts",
+    "dashboard": "node -r ts-node/register src/dashboard.ts",
+    "test": "node node_modules/jest/bin/jest.js",
+    "test:watch": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "keywords": [
+    "mcp",
+    "sdlc",
+    "traceability",
+    "requirements",
+    "testing"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "express": "^5.2.1",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.0.0",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  }
+}
